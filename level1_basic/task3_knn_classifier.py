@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 # -----------------------------------------------------------------------
 # 1. Load the data
 # -----------------------------------------------------------------------
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("..\\data\\iris.csv")
 print(f"Loaded dataset: {df.shape[0]} rows, {df.shape[1]} columns")
 print("Species counts:\n", df["species"].value_counts(), "\n")
 
