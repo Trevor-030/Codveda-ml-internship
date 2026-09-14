@@ -28,8 +28,8 @@ def preprocess(df):
     df["Churn"] = df["Churn"].astype(int)
     return df
 
-train_df = preprocess(pd.read_csv("churn-bigml-80.csv"))
-test_df = preprocess(pd.read_csv("churn-bigml-20.csv"))
+train_df = preprocess(pd.read_csv("..\\data\\churn-bigml-80.csv"))
+test_df = preprocess(pd.read_csv("..\\data\\churn-bigml-20.csv"))
 
 X_train = train_df.drop(columns=["Churn"])
 y_train = train_df["Churn"]
