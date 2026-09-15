@@ -85,6 +85,6 @@ print("Precision / recall / F1 per class:")
 print(classification_report(y_test, y_pred))
 
 # Save the K comparison and final predictions
-pd.DataFrame(results, columns=["K", "accuracy"]).to_csv("task3_k_comparison.csv", index=False)
-pd.DataFrame({"actual": y_test.values, "predicted": y_pred}).to_csv("task3_predictions.csv", index=False)
+pd.DataFrame(results, columns=["K", "accuracy"]).to_csv("../results/level1_basic/task3_k_comparison.csv", index=False)
+pd.DataFrame({"actual": y_test.values, "predicted": y_pred}).to_csv("../results/level1_basic/task3_predictions.csv", index=False)
 print("Saved: task3_k_comparison.csv, task3_predictions.csv")

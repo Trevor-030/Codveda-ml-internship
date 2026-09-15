@@ -67,7 +67,7 @@ plt.ylabel("Inertia (within-cluster sum of squares)")
 plt.title("Elbow Method for Optimal K")
 plt.xticks(list(k_range))
 plt.tight_layout()
-plt.savefig("task3_elbow_plot.png", dpi=150)
+plt.savefig("../results/level2_intermediate/task3_elbow_plot.png", dpi=150)
 print("Saved elbow plot to task3_elbow_plot.png")
 
 for k, inertia in zip(k_range, inertias):
@@ -107,7 +107,7 @@ plt.title(f"Customer Segments (K-Means, K={CHOSEN_K}) - PCA-reduced view")
 plt.xlabel(f"PC1 ({explained[0]:.1%} variance)")
 plt.ylabel(f"PC2 ({explained[1]:.1%} variance)")
 plt.tight_layout()
-plt.savefig("task3_cluster_scatter.png", dpi=150)
+plt.savefig("../results/level2_intermediate/task3_cluster_scatter.png", dpi=150)
 print("Saved cluster scatter plot to task3_cluster_scatter.png")
 
 # -----------------------------------------------------------------------

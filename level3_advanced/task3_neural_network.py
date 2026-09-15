@@ -115,7 +115,7 @@ axes[1].set_title("Training vs Validation Accuracy")
 axes[1].legend()
 
 plt.tight_layout()
-plt.savefig("task3_nn_training_curves.png", dpi=150)
+plt.savefig("../results/level3_advanced/task3_nn_training_curves.png", dpi=150)
 print("Saved training curves to task3_nn_training_curves.png")
 
 # Save a few sample predictions for a sanity check
@@ -123,6 +123,6 @@ y_pred_proba = model.predict(X_test, verbose=0)
 y_pred = np.argmax(y_pred_proba, axis=1)
 import pandas as pd
 pd.DataFrame({"actual_digit": y_test, "predicted_digit": y_pred}).to_csv(
-    "task3_nn_predictions.csv", index=False
+    "../results/level3_advanced/task3_nn_predictions.csv", index=False
 )
 print("Saved predictions to task3_nn_predictions.csv")

@@ -17,10 +17,10 @@ from sklearn.metrics import r2_score, mean_squared_error
 # -----------------------------------------------------------------------
 # 1. Load the already-preprocessed data from Task 1
 # -----------------------------------------------------------------------
-X_train = pd.read_csv("X_train.csv")
-X_test = pd.read_csv("X_test.csv")
-y_train = pd.read_csv("y_train.csv").squeeze("columns")  # read as Series, not 1-col DataFrame
-y_test = pd.read_csv("y_test.csv").squeeze("columns")
+X_train = pd.read_csv("../results/level1_basic/X_train.csv")
+X_test = pd.read_csv("../results/level1_basic/X_test.csv")
+y_train = pd.read_csv("../results/level1_basic/y_train.csv").squeeze("columns")  # read as Series, not 1-col DataFrame
+y_test = pd.read_csv("../results/level1_basic/y_test.csv").squeeze("columns")
 
 print(f"Training on {X_train.shape[0]} houses, {X_train.shape[1]} features")
 print(f"Testing on {X_test.shape[0]} houses\n")

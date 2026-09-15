@@ -118,7 +118,7 @@ plt.ylabel("True Positive Rate")
 plt.title("ROC Curve - Churn Prediction (Logistic Regression)")
 plt.legend()
 plt.tight_layout()
-plt.savefig("task1_roc_curve.png", dpi=150)
+plt.savefig("../results/level2_intermediate/task1_roc_curve.png", dpi=150)
 print("\nSaved ROC curve to task1_roc_curve.png")
 
 # Save predictions

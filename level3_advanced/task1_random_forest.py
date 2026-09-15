@@ -112,6 +112,6 @@ print(importances.head(10).round(4))
 
 importances.to_csv("task1_rf_feature_importance.csv", header=["importance"])
 pd.DataFrame({"actual": y_test.values, "predicted": y_pred}).to_csv(
-    "task1_rf_predictions.csv", index=False
+    "../results/level3_advanced/task1_rf_predictions.csv", index=False
 )
 print("\nSaved: task1_rf_feature_importance.csv, task1_rf_predictions.csv")

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6de0ad3-b5bf-4c88-8052-536f78e7244d" name="Changes" comment="" />
+    <list default="true" id="c6de0ad3-b5bf-4c88-8052-536f78e7244d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Machine Learning Internship.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine Learning Internship.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="42" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,28 +23,108 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.436368502577058" />
+      <entry key="MS500" value="3.10931274248161" />
+      <entry key="S2" value="5.560837007991493" />
+      <entry key="S5" value="6.759122190283622" />
+      <entry key="S10" value="7.317169574679673" />
+      <entry key="S30" value="7.7560994016962495" />
+      <entry key="S60" value="7.875836745446676" />
+      <entry key="M2" value="7.937350812189557" />
+      <entry key="M5" value="7.974802273182421" />
+      <entry key="M10" value="7.987741824483349" />
+      <entry key="M15" value="7.998931185149685" />
+      <entry key="M30" value="8.144390025745476" />
+      <entry key="H1" value="8.721781993623217" />
+      <entry key="H2" value="10.757719661968371" />
+      <entry key="H4" value="16.61720227137377" />
+      <entry key="D1" value="35.388254733256254" />
+      <entry key="W1" value="41.78804315158232" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="1.9851445618872416E-165" />
+      <entry key="M2" value="7.656471066492543E-83" />
+      <entry key="M5" value="2.748434337003257E-33" />
+      <entry key="M10" value="9.07763243557698E-17" />
+      <entry key="M15" value="2.9129070458534616E-11" />
+      <entry key="M30" value="9.347803244850725E-6" />
+      <entry key="H1" value="0.005295559154011989" />
+      <entry key="H2" value="0.1260421039908986" />
+      <entry key="H4" value="0.6149194439763009" />
+      <entry key="D1" value="2.3035839936340503" />
+      <entry key="W1" value="2.8889038134113276" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.381792967695514" />
+      <entry key="MS500" value="2.875158629550328" />
+      <entry key="S2" value="5.03354667836792" />
+      <entry key="S5" value="6.357651583160679" />
+      <entry key="S10" value="7.063617418811881" />
+      <entry key="S30" value="7.656812685401965" />
+      <entry key="S60" value="7.824119428353149" />
+      <entry key="M2" value="7.910954906834811" />
+      <entry key="M5" value="7.9641124950944615" />
+      <entry key="M10" value="7.98237471606245" />
+      <entry key="M15" value="7.995346812573076" />
+      <entry key="M30" value="8.142590860701915" />
+      <entry key="H1" value="8.726143432514805" />
+      <entry key="H2" value="10.88323285777513" />
+      <entry key="H4" value="17.231761537055394" />
+      <entry key="D1" value="37.69172661783938" />
+      <entry key="W1" value="44.676928402154694" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JILG8sxcRNJP77bA82MzieB8Zu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.task1_data_preprocessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_logistic_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_random_forest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_decision_tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_linear_regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_svm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_kmeans.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_knn_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_neural_network.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\PycharmProjects\Machine Learning Internship\data" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

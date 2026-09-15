@@ -79,7 +79,7 @@ plot_tree(
 )
 plt.title("Pruned Decision Tree (max_depth=3) - Iris Species Classification")
 plt.tight_layout()
-plt.savefig("task2_decision_tree.png", dpi=150)
+plt.savefig("../results/level2_intermediate/task2_decision_tree.png", dpi=150)
 print("\nSaved tree diagram to task2_decision_tree.png")
 
 # -----------------------------------------------------------------------
@@ -99,5 +99,6 @@ importances = pd.Series(pruned_tree.feature_importances_, index=X.columns).sort_
 print("Feature importances:")
 print(importances.round(3))
 
-pd.DataFrame({"actual": y_test.values, "predicted": y_pred}).to_csv("task2_dtree_predictions.csv", index=False)
+pd.DataFrame({"actual": y_test.values, "predicted": y_pred}).to_csv(
+    "../results/level2_intermediate/task2_dtree_predictions.csv", index=False)
 print("\nSaved predictions to task2_dtree_predictions.csv")

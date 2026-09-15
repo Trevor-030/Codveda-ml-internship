@@ -107,7 +107,7 @@ for ax, kernel in zip(axes, kernels):
     ax.set_ylabel(f"{feat_y} (scaled)")
 
 plt.tight_layout()
-plt.savefig("task2_svm_decision_boundary.png", dpi=150)
+plt.savefig("../results/level3_advanced/task2_svm_decision_boundary.png", dpi=150)
 print("Saved decision boundary plot to task2_svm_decision_boundary.png")
 print("(Note: this 2-feature view is for illustration only - the models")
 print(" compared above used all features, not just these two.)")
@@ -123,6 +123,6 @@ for metric in ["accuracy", "precision", "recall", "f1", "auc"]:
     print(f"{metric.capitalize()}: {kernel_results[best_kernel][metric]:.4f}")
 
 pd.DataFrame({"actual": y_test.values, "predicted": y_pred}).to_csv(
-    "task2_svm_predictions.csv", index=False
+    "../results/level3_advanced/task2_svm_predictions.csv", index=False
 )
 print("\nSaved predictions to task2_svm_predictions.csv")
